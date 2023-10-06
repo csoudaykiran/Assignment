@@ -1,0 +1,3 @@
+Commands to Run:
+Backend (Django) : python manage.py runserver
+Frontend (React) : npm start
