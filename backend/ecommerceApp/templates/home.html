@@ -1,0 +1,1672 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Satoshi:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Integral CF:wght@700&display=swap"
+    />
+    <style>
+        .homepage-child {
+            position: absolute;
+            top: 134px;
+            left: 0;
+            width: 1440px;
+            height: 663px;
+            object-fit: cover;
+          }
+          .vector-icon,
+          .vector-icon1 {
+            position: absolute;
+            height: 2.38%;
+            width: 7.22%;
+            top: 5.03%;
+            right: 5.63%;
+            bottom: 92.59%;
+            left: 87.15%;
+            max-width: 100%;
+            overflow: hidden;
+            max-height: 100%;
+          }
+          .vector-icon1 {
+            height: 1.28%;
+            width: 3.89%;
+            top: 9.86%;
+            right: 44.03%;
+            bottom: 88.86%;
+            left: 52.08%;
+          }
+          .sign-up-now {
+            text-decoration: underline;
+            font-weight: 500;
+          }
+          .frame-icon,
+          .sign-up-and-container {
+            position: absolute;
+            top: calc(50% - 10px);
+          }
+          .sign-up-and-container {
+            left: calc(50% - 176px);
+          }
+          .frame-icon {
+            left: 1320px;
+            width: 20px;
+            height: 20px;
+            overflow: hidden;
+          }
+          .sign-up-and-get-20-off-to-you-parent {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: var(--color-black);
+            width: 1440px;
+            height: 38px;
+            overflow: hidden;
+            font-size: var(--font-size-sm);
+            color: var(--color-white);
+          }
+          .shopco {
+            font-size: 32px;
+            font-family: var(--font-integral-cf);
+          }
+          .frame-icon1,
+          .shop,
+          .shopco {
+            position: relative;
+          }
+          .frame-icon1 {
+            width: 16px;
+            height: 16px;
+            overflow: hidden;
+            flex-shrink: 0;
+          }
+          .frame-parent,
+          .shop-parent {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .shop-parent {
+            gap: var(--gap-9xs);
+          }
+          .frame-parent {
+            gap: 24px;
+          }
+          .frame-icon2 {
+            position: relative;
+            width: 24px;
+            height: 24px;
+            overflow: hidden;
+            flex-shrink: 0;
+          }
+          .frame-container,
+          .frame-group {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+          }
+          .frame-group {
+            flex: 1;
+            border-radius: var(--br-43xl);
+            background-color: var(--color-whitesmoke-100);
+            overflow: hidden;
+            padding: var(--padding-xs) var(--padding-base);
+            gap: var(--gap-xs);
+            color: var(--color-gray-200);
+          }
+          .frame-container {
+            gap: var(--gap-sm);
+          }
+          .find-clothes-that,
+          .shopco-parent {
+            position: absolute;
+            left: 100px;
+            display: flex;
+            align-items: center;
+          }
+          .shopco-parent {
+            top: 62px;
+            width: 1240px;
+            flex-direction: row;
+            justify-content: center;
+            gap: 40px;
+            font-size: var(--font-size-base);
+          }
+          .find-clothes-that {
+            top: 237px;
+            font-size: 64px;
+            line-height: 64px;
+            font-family: var(--font-integral-cf);
+            width: 577px;
+          }
+          .browse-through-our {
+            position: absolute;
+            top: 442px;
+            left: 100px;
+            font-size: var(--font-size-base);
+            line-height: 22px;
+            color: var(--color-gray-300);
+            display: inline-block;
+            width: 545px;
+          }
+          .shop-now {
+            position: relative;
+            font-weight: 500;
+          }
+          .shop-now-wrapper {
+            position: absolute;
+            top: 507px;
+            left: 100px;
+            border-radius: var(--br-43xl);
+            background-color: var(--color-black);
+            width: 210px;
+            height: 52px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            padding: var(--padding-base) var(--padding-35xl);
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--font-size-base);
+            color: var(--color-white);
+          }
+          .international-brands {
+            position: relative;
+            font-size: var(--font-size-base);
+            line-height: 22px;
+            color: var(--color-gray-300);
+            margin-top: -2px;
+          }
+          .parent {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+          }
+          .frame-child {
+            align-self: stretch;
+            position: relative;
+            border-right: 1px solid var(--color-gray-100);
+            box-sizing: border-box;
+            width: 1px;
+          }
+          .frame-div {
+            position: absolute;
+            top: 607px;
+            left: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 32px;
+            font-size: var(--font-size-21xl);
+          }
+          .homepage-item {
+            position: absolute;
+            top: 797px;
+            left: 0;
+            background-color: var(--color-black);
+            width: 1440px;
+            height: 122px;
+          }
+          .group-icon {
+            position: absolute;
+            height: 0.76%;
+            width: 11.56%;
+            top: 19.24%;
+            right: 81.49%;
+            bottom: 80%;
+            left: 6.94%;
+            max-width: 100%;
+            overflow: hidden;
+            max-height: 100%;
+          }
+          .gucci-logo-1-1-icon,
+          .zara-logo-1-1-icon {
+            position: absolute;
+            top: 839px;
+            left: 372.48px;
+            width: 91px;
+            height: 38px;
+            overflow: hidden;
+          }
+          .gucci-logo-1-1-icon {
+            top: 840px;
+            left: 569.48px;
+            width: 156px;
+            height: 36px;
+          }
+          .group-icon1,
+          .prada-logo-1-1-icon {
+            position: absolute;
+            top: 842px;
+            left: 831.48px;
+            width: 194px;
+            height: 32px;
+            overflow: hidden;
+          }
+          .group-icon1 {
+            height: 0.76%;
+            width: 14.36%;
+            top: 19.24%;
+            right: 7.06%;
+            bottom: 79.99%;
+            left: 78.58%;
+            max-width: 100%;
+            max-height: 100%;
+          }
+          .new-arrivals1 {
+            top: 991px;
+            left: calc(50% - 202px);
+            text-align: center;
+          }
+          .new-arrivals1,
+          .our-happy-customers,
+          .top-selling {
+            position: absolute;
+            font-size: var(--font-size-29xl);
+            font-family: var(--font-integral-cf);
+          }
+          .top-selling {
+            top: 1728px;
+            left: calc(50% - 174px);
+            text-align: center;
+          }
+          .our-happy-customers {
+            top: 3363px;
+            left: calc(50% - 620px);
+          }
+          .frame-child3,
+          .frame-inner {
+            position: relative;
+            width: 18.49px;
+            height: 18.49px;
+          }
+          .frame-child3 {
+            width: 8.79px;
+            height: 16.72px;
+          }
+          .star-parent {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 5.31px;
+          }
+          .span {
+            color: var(--color-gray-300);
+          }
+          .frame-parent1,
+          .frame-parent2,
+          .frame-parent3,
+          .frame-parent4 {
+            position: absolute;
+            top: 1453px;
+            left: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: var(--gap-smi);
+            font-size: var(--font-size-sm);
+          }
+          .frame-parent2,
+          .frame-parent3,
+          .frame-parent4 {
+            left: 415px;
+          }
+          .frame-parent3,
+          .frame-parent4 {
+            left: 730px;
+          }
+          .frame-parent4 {
+            left: 1045px;
+          }
+          .image-7-icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 296px;
+            height: 444px;
+            object-fit: cover;
+          }
+          .image-7-wrapper {
+            position: absolute;
+            top: 1104px;
+            left: 100px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-whitesmoke-200);
+            width: 295px;
+            height: 298px;
+            overflow: hidden;
+          }
+          .image-8-icon {
+            position: absolute;
+            top: 0;
+            left: 14px;
+            width: 268px;
+            height: 402px;
+            object-fit: cover;
+          }
+          .image-10-wrapper,
+          .image-8-wrapper,
+          .image-9-wrapper {
+            position: absolute;
+            top: 1104px;
+            left: 415px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-whitesmoke-200);
+            width: 295px;
+            height: 298px;
+            overflow: hidden;
+          }
+          .image-10-wrapper,
+          .image-9-wrapper {
+            left: 730px;
+          }
+          .image-10-wrapper {
+            left: 1045px;
+          }
+          .shirt {
+            text-transform: lowercase;
+          }
+          .t-shirt-with-tape-container {
+            position: absolute;
+            top: 1418px;
+            left: 100px;
+          }
+          .checkered-shirt,
+          .skinny-fit-jeans-container {
+            position: absolute;
+            top: 1418px;
+            left: 415px;
+          }
+          .checkered-shirt {
+            left: 730px;
+          }
+          .sleeve-striped-t-shirt-container,
+          .wrapper {
+            position: absolute;
+            top: 1418px;
+            left: 1045px;
+          }
+          .wrapper {
+            top: 1480px;
+            left: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            font-size: var(--font-size-5xl);
+          }
+          .b5 {
+            position: relative;
+            text-decoration: line-through;
+            color: var(--color-gray-200);
+          }
+          .frame,
+          .parent1 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+          .frame {
+            border-radius: var(--br-43xl);
+            background-color: var(--color-tomato-200);
+            width: 58px;
+            overflow: hidden;
+            flex-shrink: 0;
+            padding: var(--padding-7xs) var(--padding-sm);
+            box-sizing: border-box;
+            justify-content: center;
+            font-size: var(--font-size-xs);
+            color: var(--color-tomato-100);
+          }
+          .parent1 {
+            left: 1045px;
+            justify-content: flex-start;
+            gap: var(--gap-3xs);
+          }
+          .b8,
+          .parent1,
+          .parent2,
+          .wrapper2 {
+            position: absolute;
+            top: 1480px;
+            font-size: var(--font-size-5xl);
+          }
+          .parent2 {
+            left: 415px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: var(--gap-3xs);
+          }
+          .b8,
+          .wrapper2 {
+            left: 730px;
+          }
+          .wrapper2 {
+            top: 2219px;
+            left: 231px;
+            border-radius: var(--br-43xl);
+            background-color: var(--color-tomato-200);
+            width: 58px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            padding: var(--padding-7xs) var(--padding-sm);
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--font-size-xs);
+            color: var(--color-tomato-100);
+          }
+          .frame-parent5,
+          .frame-parent6,
+          .frame-parent7,
+          .frame-parent8 {
+            position: absolute;
+            top: 2190px;
+            left: 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+            gap: var(--gap-smi);
+            font-size: var(--font-size-sm);
+          }
+          .frame-parent6,
+          .frame-parent7,
+          .frame-parent8 {
+            left: 415px;
+          }
+          .frame-parent7,
+          .frame-parent8 {
+            left: 730px;
+          }
+          .frame-parent8 {
+            left: 1045px;
+          }
+          .image-7-container {
+            position: absolute;
+            top: 1841px;
+            left: 100px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-whitesmoke-200);
+            width: 295px;
+            height: 298px;
+            overflow: hidden;
+          }
+          .image-8-icon1 {
+            position: absolute;
+            top: 0;
+            left: 1px;
+            width: 294px;
+            height: 441px;
+            object-fit: cover;
+          }
+          .image-8-container,
+          .image-9-container {
+            position: absolute;
+            top: 1841px;
+            left: 415px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-whitesmoke-200);
+            width: 295px;
+            height: 298px;
+            overflow: hidden;
+          }
+          .image-9-container {
+            left: 730px;
+          }
+          .image-10-icon1 {
+            position: absolute;
+            top: 0;
+            left: 22px;
+            width: 252px;
+            height: 378px;
+            object-fit: cover;
+          }
+          .image-10-container {
+            position: absolute;
+            top: 1841px;
+            left: 1045px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-whitesmoke-200);
+            width: 295px;
+            height: 298px;
+            overflow: hidden;
+          }
+          .vertical-striped-shirt-container {
+            position: absolute;
+            top: 2155px;
+            left: 100px;
+          }
+          .courage-graphic-t-shirt-container {
+            position: absolute;
+            top: 2155px;
+            left: 415px;
+          }
+          .loose-fit-bermuda-container {
+            position: absolute;
+            top: 2155px;
+            left: 730px;
+          }
+          .b9,
+          .faded-skinny-jeans-container {
+            position: absolute;
+            top: 2155px;
+            left: 1045px;
+          }
+          .b9 {
+            top: 2217px;
+            left: 100px;
+            font-size: var(--font-size-5xl);
+          }
+          .b10 {
+            left: 163px;
+            text-decoration: line-through;
+            color: var(--color-gray-200);
+          }
+          .b10,
+          .b12,
+          .b13,
+          .wrapper3 {
+            position: absolute;
+            top: 2217px;
+            font-size: var(--font-size-5xl);
+          }
+          .wrapper3 {
+            left: 1045px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-start;
+          }
+          .b12,
+          .b13 {
+            left: 415px;
+          }
+          .b13 {
+            left: 730px;
+          }
+          .view-all-wrapper {
+            top: 1548px;
+            left: calc(50% - 109px);
+            border-radius: var(--br-43xl);
+            border: 1px solid var(--color-gray-100);
+            width: 218px;
+            height: 52px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            padding: var(--padding-base) var(--padding-35xl);
+            align-items: center;
+            justify-content: center;
+            font-size: var(--font-size-base);
+          }
+          .homepage-inner,
+          .view-all-container,
+          .view-all-wrapper {
+            position: absolute;
+            box-sizing: border-box;
+          }
+          .view-all-container {
+            top: 2285px;
+            left: calc(50% - 109px);
+            border-radius: var(--br-43xl);
+            border: 1px solid var(--color-gray-100);
+            width: 218px;
+            height: 52px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            padding: var(--padding-base) var(--padding-35xl);
+            align-items: center;
+            justify-content: center;
+            font-size: var(--font-size-base);
+          }
+          .homepage-inner {
+            top: 1663.5px;
+            left: calc(50% - 620.5px);
+            border-top: 1px solid var(--color-gray-100);
+            width: 1241px;
+            height: 1px;
+          }
+          .browse-by-dress {
+            position: absolute;
+            top: 70px;
+            left: calc(50% - 343.5px);
+            font-size: var(--font-size-29xl);
+            font-family: var(--font-integral-cf);
+            text-align: center;
+          }
+          .image-11-icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 407px;
+            height: 289px;
+            object-fit: cover;
+          }
+          .casual,
+          .image-11-parent {
+            position: absolute;
+            top: 25px;
+            left: 36px;
+          }
+          .image-11-parent {
+            top: 192px;
+            left: 64px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-white);
+            width: 407px;
+            height: 289px;
+            overflow: hidden;
+          }
+          .image-14-icon {
+            position: absolute;
+            top: 0;
+            left: 53px;
+            width: 452px;
+            height: 677px;
+            object-fit: cover;
+          }
+          .image-14-parent {
+            position: absolute;
+            top: 501px;
+            left: 768px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-white);
+            width: 407px;
+            height: 289px;
+            overflow: hidden;
+          }
+          .image-13-icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1306px;
+            height: 870px;
+            object-fit: cover;
+          }
+          .image-13-parent {
+            position: absolute;
+            top: 192px;
+            left: 491px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-white);
+            width: 684px;
+            height: 289px;
+            overflow: hidden;
+          }
+          .image-12-icon {
+            position: absolute;
+            top: 0;
+            left: 42px;
+            width: 770px;
+            height: 616px;
+            object-fit: cover;
+          }
+          .image-12-parent {
+            position: absolute;
+            top: 501px;
+            left: 64px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-white);
+            width: 684px;
+            height: 289px;
+            overflow: hidden;
+          }
+          .browse-by-dress-style-parent {
+            position: absolute;
+            top: 2417px;
+            left: 100px;
+            border-radius: 40px;
+            background-color: var(--color-whitesmoke-100);
+            width: 1239px;
+            height: 866px;
+            overflow: hidden;
+            font-size: var(--font-size-17xl);
+          }
+          .frame-child35 {
+            position: relative;
+            width: 22.58px;
+            height: 22.58px;
+          }
+          .star-parent6 {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 6.49px;
+          }
+          .im-blown-away,
+          .sarah-m {
+            position: relative;
+            line-height: 22px;
+          }
+          .im-blown-away {
+            align-self: stretch;
+            font-size: var(--font-size-base);
+            color: var(--color-gray-300);
+          }
+          .frame-parent10 {
+            align-self: stretch;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: var(--gap-xs);
+          }
+          .frame-parent9,
+          .frame-wrapper {
+            flex: 1;
+            display: flex;
+            align-items: flex-start;
+          }
+          .frame-parent9 {
+            flex-direction: column;
+            justify-content: flex-start;
+            gap: var(--gap-mini);
+          }
+          .frame-wrapper {
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .homepage-inner1 {
+            left: 100px;
+            height: 240px;
+          }
+          .homepage-inner1,
+          .homepage-inner2,
+          .homepage-inner3,
+          .homepage-inner4,
+          .homepage-inner5 {
+            position: absolute;
+            top: 3461px;
+            border-radius: var(--br-xl);
+            border: 1px solid var(--color-gray-100);
+            box-sizing: border-box;
+            width: 400px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            padding: var(--padding-9xl) var(--padding-13xl);
+            align-items: flex-start;
+            justify-content: flex-start;
+          }
+          .homepage-inner2 {
+            left: -320px;
+            filter: blur(4px);
+            height: 240px;
+          }
+          .homepage-inner3,
+          .homepage-inner4,
+          .homepage-inner5 {
+            left: 520px;
+          }
+          .homepage-inner4,
+          .homepage-inner5 {
+            left: 940px;
+          }
+          .homepage-inner5 {
+            left: 1360px;
+            filter: blur(4px);
+          }
+          .arrow-down-bold-1-icon,
+          .arrow-down-bold-2-icon {
+            position: absolute;
+            top: 3397px;
+            left: 1316px;
+            width: 24px;
+            height: 24px;
+            overflow: hidden;
+          }
+          .arrow-down-bold-2-icon {
+            left: 1276px;
+          }
+          .group-child {
+            position: absolute;
+            top: 90px;
+            left: calc(50% - 720.5px);
+            background-color: var(--color-whitesmoke-100);
+            width: 1441px;
+            height: 499px;
+          }
+          .group-item {
+            position: absolute;
+            top: 456.5px;
+            left: calc(50% - 620px);
+            border-top: 1px solid var(--color-gray-100);
+            box-sizing: border-box;
+            width: 1241px;
+            height: 1px;
+          }
+          .stay-upto-date {
+            position: relative;
+            line-height: 45px;
+            display: inline-block;
+            width: 551px;
+            height: 94px;
+            flex-shrink: 0;
+          }
+          .frame-parent20,
+          .subscribe-to-newsletter-wrapper {
+            border-radius: var(--br-43xl);
+            background-color: var(--color-white);
+            width: 349px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            padding: var(--padding-xs) var(--padding-base);
+            box-sizing: border-box;
+          }
+          .frame-parent20 {
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: var(--gap-xs);
+          }
+          .subscribe-to-newsletter-wrapper {
+            align-items: center;
+            justify-content: center;
+            color: var(--color-black);
+          }
+          .frame-parent19 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: var(--gap-sm);
+            font-size: var(--font-size-base);
+            color: var(--color-gray-200);
+            font-family: var(--font-satoshi);
+          }
+          .stay-upto-date-about-our-lates-parent {
+            position: absolute;
+            top: 0;
+            left: 101px;
+            border-radius: var(--br-xl);
+            background-color: var(--color-black);
+            width: 1240px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;
+            padding: 36px 64px;
+            box-sizing: border-box;
+            align-items: center;
+            justify-content: space-between;
+            font-family: var(--font-integral-cf);
+          }
+          .we-have-clothes {
+            position: relative;
+            font-size: var(--font-size-sm);
+            line-height: 22px;
+            font-family: var(--font-satoshi);
+            color: var(--color-gray-300);
+            display: inline-block;
+            width: 248px;
+          }
+          .shopco-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 25px;
+          }
+          .social-icon {
+            position: relative;
+            width: 148px;
+            height: 28px;
+          }
+          .frame-parent22 {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: 35px;
+            font-size: 33.45px;
+            font-family: var(--font-integral-cf);
+          }
+          .help-menu {
+            position: relative;
+            letter-spacing: 3px;
+            line-height: 18px;
+            text-transform: uppercase;
+            font-weight: 500;
+          }
+          .about {
+            margin: 0;
+          }
+          .about-features-works-container {
+            position: relative;
+            line-height: 19px;
+            color: var(--color-gray-300);
+            white-space: pre-wrap;
+          }
+          .help-menu-parent {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            gap: var(--gap-7xl);
+          }
+          .about-features-works-container1,
+          .about-features-works-container2 {
+            position: relative;
+            line-height: 19px;
+            color: var(--color-gray-300);
+          }
+          .about-features-works-container2 {
+            display: inline-block;
+            width: 149px;
+          }
+          .frame-parent21 {
+            position: absolute;
+            top: 230px;
+            left: 101px;
+            width: 1240px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: space-between;
+            font-size: var(--font-size-base);
+            color: var(--color-black);
+          }
+          .badge-icon {
+            position: relative;
+            border-radius: 5.38px;
+            width: 64.99px;
+            height: 48.41px;
+          }
+          .badge-parent {
+            position: absolute;
+            top: 477px;
+            left: 1060px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: flex-start;
+            gap: var(--gap-xs);
+          }
+          .all-rights-reserved {
+            position: absolute;
+            top: 482px;
+            left: 101px;
+            font-size: var(--font-size-sm);
+            color: var(--color-gray-300);
+            text-align: right;
+          }
+          .group-div,
+          .rectangle-parent {
+            position: absolute;
+            top: 0;
+            left: calc(50% - 720.5px);
+            width: 1441px;
+            height: 589px;
+          }
+          .group-div {
+            top: 3781px;
+            left: calc(50% - 721px);
+            font-size: var(--font-size-21xl);
+            color: var(--color-white);
+          }
+          .homepage {
+            position: relative;
+            background-color: var(--color-white);
+            width: 100%;
+            height: 4370px;
+            overflow: hidden;
+            text-align: left;
+            font-size: var(--font-size-xl);
+            color: var(--color-black);
+            font-family: var(--font-satoshi);
+          }
+          body {
+            margin: 0;
+            line-height: normal;
+          }
+          
+          :root {
+            /* fonts */
+            --font-satoshi: Satoshi;
+            --font-integral-cf: "Integral CF";
+          
+            /* font sizes */
+            --font-size-sm: 14px;
+            --font-size-base: 16px;
+            --font-size-21xl: 40px;
+            --font-size-xl: 20px;
+            --font-size-17xl: 36px;
+            --font-size-29xl: 48px;
+            --font-size-5xl: 24px;
+            --font-size-xs: 12px;
+          
+            /* Colors */
+            --color-white: #fff;
+            --color-gray-100: rgba(0, 0, 0, 0.1);
+            --color-gray-200: rgba(0, 0, 0, 0.4);
+            --color-gray-300: rgba(0, 0, 0, 0.6);
+            --color-black: #000;
+            --color-whitesmoke-100: #f0f0f0;
+            --color-whitesmoke-200: #f0eeed;
+            --color-tomato-100: #ff3333;
+            --color-tomato-200: rgba(255, 51, 51, 0.1);
+          
+            /* Gaps */
+            --gap-xs: 12px;
+            --gap-7xl: 26px;
+            --gap-sm: 14px;
+            --gap-mini: 15px;
+            --gap-9xs: 4px;
+            --gap-6xs-5: 6.5px;
+            --gap-smi: 13px;
+            --gap-7xs-3: 5.3px;
+            --gap-3xs: 10px;
+          
+            /* Paddings */
+            --padding-xs: 12px;
+            --padding-base: 16px;
+            --padding-9xl: 28px;
+            --padding-13xl: 32px;
+            --padding-35xl: 54px;
+            --padding-7xs: 6px;
+            --padding-sm: 14px;
+          
+            /* border radiuses */
+            --br-7xs-4: 5.4px;
+            --br-xl: 20px;
+            --br-43xl: 62px;
+          }
+          
+    </style>
+  </head>
+  <body>
+    <div class="homepage">
+      <img class="homepage-child" alt="" src="./public/rectangle-2@2x.png" />
+
+      <img class="vector-icon" alt="" src="./public/vector.svg" />
+
+      <img class="vector-icon1" alt="" src="./public/vector1.svg" />
+
+      <div class="sign-up-and-get-20-off-to-you-parent">
+        <div class="sign-up-and-container">
+          <span>Sign up and get 20% off to your first order. </span>
+          <span class="sign-up-now">Sign Up Now</span>
+        </div>
+        <img class="frame-icon" alt="" src="./public/frame.svg" />
+      </div>
+      <div class="shopco-parent">
+        <b class="shopco">SHOP.CO</b>
+        <div class="frame-parent">
+          <div class="shop-parent">
+            <div class="shop">Shop</div>
+            <img class="frame-icon1" alt="" src="./public/frame1.svg" />
+          </div>
+          <div class="shop">On Sale</div>
+          <div class="shop">New Arrivals</div>
+          <div class="shop">Brands</div>
+        </div>
+        <div class="frame-group">
+          <img class="frame-icon2" alt="" src="./public/frame2.svg" />
+
+          <div class="shop">Search for products...</div>
+        </div>
+        <div class="frame-container">
+          <img class="frame-icon2" alt="" src="./public/frame3.svg" />
+
+          <img class="frame-icon2" alt="" src="./public/frame4.svg" />
+        </div>
+      </div>
+      <b class="find-clothes-that">FIND CLOTHES THAT MATCHES YOUR STYLE</b>
+      <div class="browse-through-our">
+        Browse through our diverse range of meticulously crafted garments,
+        designed to bring out your individuality and cater to your sense of
+        style.
+      </div>
+      <div class="shop-now-wrapper">
+        <div class="shop-now">Shop Now</div>
+      </div>
+      <div class="frame-div">
+        <div class="parent">
+          <b class="shop">200+</b>
+          <div class="international-brands">International Brands</div>
+        </div>
+        <div class="frame-child"></div>
+        <div class="parent">
+          <b class="shop">2,000+</b>
+          <div class="international-brands">High-Quality Products</div>
+        </div>
+        <div class="frame-child"></div>
+        <div class="parent">
+          <b class="shop">30,000+</b>
+          <div class="international-brands">Happy Customers</div>
+        </div>
+      </div>
+      <div class="homepage-item"></div>
+      <img class="group-icon" alt="" src="./public/group.svg" />
+
+      <img class="zara-logo-1-1-icon" alt="" src="./public/zaralogo1-1.svg" />
+
+      <img class="gucci-logo-1-1-icon" alt="" src="./public/guccilogo1-1.svg" />
+
+      <img class="prada-logo-1-1-icon" alt="" src="./public/pradalogo1-1.svg" />
+
+      <img class="group-icon1" alt="" src="./public/group1.svg" />
+
+      <b class="new-arrivals1">NEW ARRIVALS</b>
+      <b class="top-selling">top selling</b>
+      <b class="our-happy-customers">OUR HAPPY CUSTOMERS</b>
+      <div class="frame-parent1">
+        <div class="star-parent">
+          <img class="frame-inner" alt="" src="./public/star-1.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-2.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-3.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-4.svg" />
+
+          <img class="frame-child3" alt="" src="./public/star-5.svg" />
+        </div>
+        <div class="shop">
+          <span>4.5/</span>
+          <span class="span">5</span>
+        </div>
+      </div>
+      <div class="frame-parent2">
+        <div class="star-parent">
+          <img class="frame-inner" alt="" src="./public/star-11.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-21.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-31.svg" />
+
+          <img class="frame-child3" alt="" src="./public/star-51.svg" />
+        </div>
+        <div class="shop">
+          <span>3.5/</span>
+          <span class="span">5</span>
+        </div>
+      </div>
+      <div class="frame-parent3">
+        <div class="star-parent">
+          <img class="frame-inner" alt="" src="./public/star-12.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-22.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-32.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-41.svg" />
+
+          <img class="frame-child3" alt="" src="./public/star-52.svg" />
+        </div>
+        <div class="shop">
+          <span>4.5/</span>
+          <span class="span">5</span>
+        </div>
+      </div>
+      <div class="frame-parent4">
+        <div class="star-parent">
+          <img class="frame-inner" alt="" src="./public/star-13.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-23.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-33.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-42.svg" />
+
+          <img class="frame-child3" alt="" src="./public/star-53.svg" />
+        </div>
+        <div class="shop">
+          <span>4.5/</span>
+          <span class="span">5</span>
+        </div>
+      </div>
+      <div class="image-7-wrapper">
+        <img class="image-7-icon" alt="" src="./public/image-7@2x.png" />
+      </div>
+      <div class="image-8-wrapper">
+        <img class="image-8-icon" alt="" src="./public/image-8@2x.png" />
+      </div>
+      <div class="image-9-wrapper">
+        <img class="image-7-icon" alt="" src="./public/image-9@2x.png" />
+      </div>
+      <div class="image-10-wrapper">
+        <img class="image-7-icon" alt="" src="./public/image-10@2x.png" />
+      </div>
+      <b class="t-shirt-with-tape-container"
+        >T-
+        <span class="shirt">SHIRT</span>
+        <span class="shirt">WITH</span> T <span class="shirt">APE</span> D
+        <span class="shirt">ETAILS</span>
+      </b>
+      <b class="skinny-fit-jeans-container"
+        >S <span class="shirt">KINNY</span> F <span class="shirt">IT</span> J
+        <span class="shirt">EANS</span>
+      </b>
+      <b class="checkered-shirt"
+        >C <span class="shirt">HECKERED</span> S
+        <span class="shirt">HIRT</span>
+      </b>
+      <b class="sleeve-striped-t-shirt-container"
+        >S <span class="shirt">LEEVE</span> S
+        <span class="shirt">TRIPED</span> T-
+        <span class="shirt">SHIRT</span>
+      </b>
+      <div class="wrapper">
+        <b class="shop">$120</b>
+      </div>
+      <div class="parent1">
+        <b class="shop">$130</b>
+        <b class="b5">$160</b>
+        <div class="frame">
+          <div class="shop-now">-30%</div>
+        </div>
+      </div>
+      <div class="parent2">
+        <b class="shop">$240</b>
+        <b class="b5">$260</b>
+        <div class="frame">
+          <div class="shop-now">-20%</div>
+        </div>
+      </div>
+      <b class="b8">$180</b>
+      <div class="wrapper2">
+        <div class="shop-now">-20%</div>
+      </div>
+      <div class="frame-parent5">
+        <div class="star-parent">
+          <img class="frame-inner" alt="" src="./public/star-14.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-24.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-34.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-43.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-54.svg" />
+        </div>
+        <div class="shop">
+          <span>5.0/</span>
+          <span class="span">5</span>
+        </div>
+      </div>
+      <div class="frame-parent6">
+        <div class="star-parent">
+          <img class="frame-inner" alt="" src="./public/star-15.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-25.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-35.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-44.svg" />
+        </div>
+        <div class="shop">
+          <span>4.0/</span>
+          <span class="span">5</span>
+        </div>
+      </div>
+      <div class="frame-parent7">
+        <div class="star-parent">
+          <img class="frame-inner" alt="" src="./public/star-16.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-26.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-36.svg" />
+        </div>
+        <div class="shop">
+          <span>3.0/</span>
+          <span class="span">5</span>
+        </div>
+      </div>
+      <div class="frame-parent8">
+        <div class="star-parent">
+          <img class="frame-inner" alt="" src="./public/star-17.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-27.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-37.svg" />
+
+          <img class="frame-inner" alt="" src="./public/star-45.svg" />
+
+          <img class="frame-child3" alt="" src="./public/star-55.svg" />
+        </div>
+        <div class="shop">
+          <span>4.5/</span>
+          <span class="span">5</span>
+        </div>
+      </div>
+      <div class="image-7-container">
+        <img class="image-7-icon" alt="" src="./public/image-71@2x.png" />
+      </div>
+      <div class="image-8-container">
+        <img class="image-8-icon1" alt="" src="./public/image-81@2x.png" />
+      </div>
+      <div class="image-9-container">
+        <img class="image-7-icon" alt="" src="./public/image-91@2x.png" />
+      </div>
+      <div class="image-10-container">
+        <img class="image-10-icon1" alt="" src="./public/image-101@2x.png" />
+      </div>
+      <b class="vertical-striped-shirt-container"
+        >V <span class="shirt">ERTICAL</span> S
+        <span class="shirt">TRIPED</span> S
+        <span class="shirt">HIRT</span>
+      </b>
+      <b class="courage-graphic-t-shirt-container"
+        >C <span class="shirt">OURAGE</span> G
+        <span class="shirt">RAPHIC</span> T-
+        <span class="shirt">SHIRT</span>
+      </b>
+      <b class="loose-fit-bermuda-container"
+        >L <span class="shirt">OOSE</span> F <span class="shirt">IT</span> B
+        <span class="shirt">ERMUDA</span> S
+        <span class="shirt">HORTS</span>
+      </b>
+      <b class="faded-skinny-jeans-container"
+        >F <span class="shirt">ADED</span> S <span class="shirt">KINNY</span> J
+        <span class="shirt">EANS</span>
+      </b>
+      <b class="b9">$212</b>
+      <b class="b10">$232</b>
+      <div class="wrapper3">
+        <b class="shop">$210</b>
+      </div>
+      <b class="b12">$145</b>
+      <b class="b13">$80</b>
+      <div class="view-all-wrapper">
+        <div class="shop-now">View All</div>
+      </div>
+      <div class="view-all-container">
+        <div class="shop-now">View All</div>
+      </div>
+      <div class="homepage-inner"></div>
+      <div class="browse-by-dress-style-parent">
+        <b class="browse-by-dress">BROWSE BY dress STYLE</b>
+        <div class="image-11-parent">
+          <img class="image-11-icon" alt="" src="./public/image-11@2x.png" />
+
+          <b class="casual">Casual</b>
+        </div>
+        <div class="image-14-parent">
+          <img class="image-14-icon" alt="" src="./public/image-14@2x.png" />
+
+          <b class="casual">Gym</b>
+        </div>
+        <div class="image-13-parent">
+          <img class="image-13-icon" alt="" src="./public/image-13@2x.png" />
+
+          <b class="casual">Formal</b>
+        </div>
+        <div class="image-12-parent">
+          <img class="image-12-icon" alt="" src="./public/image-12@2x.png" />
+
+          <b class="casual">Party</b>
+        </div>
+      </div>
+      <div class="homepage-inner1">
+        <div class="frame-wrapper">
+          <div class="frame-parent9">
+            <div class="star-parent6">
+              <img class="frame-child35" alt="" src="./public/star-18.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-28.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-38.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-46.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-56.svg" />
+            </div>
+            <div class="frame-parent10">
+              <div class="shop-parent">
+                <b class="sarah-m">Sarah M.</b>
+                <img class="frame-icon2" alt="" src="./public/frame5.svg" />
+              </div>
+              <div class="im-blown-away">
+                "I'm blown away by the quality and style of the clothes I
+                received from Shop.co. From casual wear to elegant dresses,
+                every piece I've bought has exceeded my expectations.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="homepage-inner2">
+        <div class="frame-wrapper">
+          <div class="frame-parent9">
+            <div class="star-parent6">
+              <img class="frame-child35" alt="" src="./public/star-19.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-29.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-39.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-47.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-57.svg" />
+            </div>
+            <div class="frame-parent10">
+              <div class="shop-parent">
+                <b class="sarah-m">Sarah M.</b>
+                <img class="frame-icon2" alt="" src="./public/frame6.svg" />
+              </div>
+              <div class="im-blown-away">
+                "I'm blown away by the quality and style of the clothes I
+                received from Shop.co. From casual wear to elegant dresses,
+                every piece I've bought has exceeded my expectations.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="homepage-inner3">
+        <div class="frame-wrapper">
+          <div class="frame-parent9">
+            <div class="star-parent6">
+              <img class="frame-child35" alt="" src="./public/star-110.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-210.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-310.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-48.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-58.svg" />
+            </div>
+            <div class="frame-parent10">
+              <div class="shop-parent">
+                <b class="sarah-m">Alex K.</b>
+                <img class="frame-icon2" alt="" src="./public/frame7.svg" />
+              </div>
+              <div class="im-blown-away">
+                "Finding clothes that align with my personal style used to be a
+                challenge until I discovered Shop.co. The range of options they
+                offer is truly remarkable, catering to a variety of tastes and
+                occasions.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="homepage-inner4">
+        <div class="frame-wrapper">
+          <div class="frame-parent9">
+            <div class="star-parent6">
+              <img class="frame-child35" alt="" src="./public/star-111.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-211.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-311.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-49.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-59.svg" />
+            </div>
+            <div class="frame-parent10">
+              <div class="shop-parent">
+                <b class="sarah-m">James L.</b>
+                <img class="frame-icon2" alt="" src="./public/frame8.svg" />
+              </div>
+              <div class="im-blown-away">
+                "As someone who's always on the lookout for unique fashion
+                pieces, I'm thrilled to have stumbled upon Shop.co. The
+                selection of clothes is not only diverse but also on-point with
+                the latest trends.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="homepage-inner5">
+        <div class="frame-wrapper">
+          <div class="frame-parent9">
+            <div class="star-parent6">
+              <img class="frame-child35" alt="" src="./public/star-112.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-212.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-312.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-410.svg" />
+
+              <img class="frame-child35" alt="" src="./public/star-510.svg" />
+            </div>
+            <div class="frame-parent10">
+              <div class="shop-parent">
+                <b class="sarah-m">Mooen</b>
+                <img class="frame-icon2" alt="" src="./public/frame9.svg" />
+              </div>
+              <div class="im-blown-away">
+                "As someone who's always on the lookout for unique fashion
+                pieces, I'm thrilled to have stumbled upon Shop.co. The
+                selection of clothes is not only diverse but also on-point with
+                the latest trends.”
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        class="arrow-down-bold-1-icon"
+        alt=""
+        src="./public/arrowdownbold-1.svg"
+      />
+
+      <img
+        class="arrow-down-bold-2-icon"
+        alt=""
+        src="./public/arrowdownbold-2.svg"
+      />
+
+      <div class="group-div">
+        <div class="rectangle-parent">
+          <div class="group-child"></div>
+          <div class="group-item"></div>
+          <div class="stay-upto-date-about-our-lates-parent">
+            <b class="stay-upto-date">STAY UPTO DATE ABOUT OUR LATEST OFFERS</b>
+            <div class="frame-parent19">
+              <div class="frame-parent20">
+                <img class="frame-icon2" alt="" src="./public/frame10.svg" />
+
+                <div class="shop">Enter your email address</div>
+              </div>
+              <div class="subscribe-to-newsletter-wrapper">
+                <div class="shop-now">Subscribe to Newsletter</div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-parent21">
+            <div class="frame-parent22">
+              <div class="shopco-group">
+                <b class="shop">SHOP.CO</b>
+                <div class="we-have-clothes">
+                  We have clothes that suits your style and which you’re proud
+                  to wear. From women to men.
+                </div>
+              </div>
+              <img class="social-icon" alt="" src="./public/social.svg" />
+            </div>
+            <div class="help-menu-parent">
+              <div class="help-menu">Company</div>
+              <div class="about-features-works-container">
+                <p class="about">About</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Features</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Works</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Career</p>
+              </div>
+            </div>
+            <div class="help-menu-parent">
+              <div class="help-menu">Help</div>
+              <div class="about-features-works-container1">
+                <p class="about">Customer Support</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Delivery Details</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Terms & Conditions</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Privacy Policy</p>
+              </div>
+            </div>
+            <div class="help-menu-parent">
+              <div class="help-menu">FAQ</div>
+              <div class="about-features-works-container2">
+                <p class="about">Account</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Manage Deliveries</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Orders</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Payments</p>
+              </div>
+            </div>
+            <div class="help-menu-parent">
+              <div class="help-menu">Resources</div>
+              <div class="about-features-works-container1">
+                <p class="about">Free eBooks</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Development Tutorial</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">How to - Blog</p>
+                <p class="about">&nbsp;</p>
+                <p class="about">Youtube Playlist</p>
+              </div>
+            </div>
+          </div>
+          <div class="badge-parent">
+            <img class="badge-icon" alt="" src="./public/badge.svg" />
+
+            <img class="badge-icon" alt="" src="./public/badge1.svg" />
+
+            <img class="badge-icon" alt="" src="./public/badge2.svg" />
+
+            <img class="badge-icon" alt="" src="./public/badge3.svg" />
+
+            <img class="badge-icon" alt="" src="./public/badge4.svg" />
+          </div>
+          <div class="all-rights-reserved">
+            Shop.co © 2000-2023, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

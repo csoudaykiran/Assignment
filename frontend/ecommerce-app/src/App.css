@@ -1,0 +1,344 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.my-alert{
+color: #FFF;
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: black;
+border-radius: 0px;
+margin: 0px;
+
+}
+.sign-up{
+color: #FFF;
+font-family: Satoshi;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}
+.navbar-brand{
+color: #000;
+font-family: Integral CF;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.my-nav{
+display: flex;
+
+justify-content: center;
+align-items: center;
+gap: 40px;
+
+}
+.image-text{
+  color: #000;
+font-family: Integral CF;
+font-size: 55px;
+font-style: normal;
+font-weight: 700;
+text-align: left;
+
+}
+.section-one{
+  background-color: rgba(242, 240, 241, 1);
+}
+.image-para{
+color: rgba(0, 0, 0, 0.60);
+font-family: Satoshi;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+text-align: left;
+}
+.image-tag{
+  width: 85%;
+  margin: auto;
+  padding-right: 0px;
+}
+.shop-now{
+display: flex;
+width: 210px;
+height: 52px;
+padding: 16px 54px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 62px;
+background: #000;
+text-decoration: none;
+color: white;
+}
+.digits{
+display: inline-flex;
+align-items: center;
+gap: 32px;
+
+}
+.digit{
+color: #000;
+font-family: Satoshi;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.digit-tag{
+color: rgba(0, 0, 0, 0.60);
+font-family: Satoshi;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+
+}
+.brands{
+  background-color: #000;
+  padding: 12px;
+  width: 100%;
+
+}
+.heading{
+  color: #000;
+text-align: center;
+font-family: Integral CF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.price{
+color: #000;
+font-family: Satoshi;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-top: 20px;
+}
+.strike-price{
+  color: rgba(0, 0, 0, 0.40);
+font-family: Satoshi;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-decoration-line:line-through;
+}
+.discount{
+width: 58px;
+padding: 6px 14px;
+justify-content: center;
+align-items: center;
+border-radius: 62px;
+background: rgba(255, 51, 51, 0.10);
+color: #F33;
+font-family: Satoshi;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.btn{
+display: flex;
+width: 218px;
+height: 52px;
+padding: 16px 54px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+flex-shrink: 0;
+border-radius: 62px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+margin: auto;
+}
+.section-four{
+  
+height: 600px;
+flex-shrink: 0;
+border-radius: 40px;
+background: #F0F0F0;
+margin: auto;
+}
+.header-four{
+color: #000;
+text-align: center;
+font-family: Integral CF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.casual{
+background-image: url('https://s3-alpha-sig.figma.com/img/e1b7/74ab/a32d9a769caba77c08e107a9198dcd6d?Expires=1693785600&Signature=k-6wgirJa3322dtZyDbxAzQuZzh0S72XsbJPntNE0sUXwog-f0jXWg2dxkM7qPKt~e~voMbBFlHLz5UMaOeq5NN6o1VQgKZGFI0IzjuFbtBC0u3fxo4z-9dNR2xO7-7IK7hKdlKbTl-aeSx5WQk4PwT1g6FF~dM-0iqpcPRPOlgrhSy8YslziHyAwsNAqq0fSuG0OauJe7FBIjwUeoo5XFzlpv7NGunTIlK9dlNTCC0mPfBs7kxzMQTR-eQsjXT1qAK~PPq3moQlKaIk-xIQKzpA2q9tZqB2X~TMRkgGN6qbYTD9PurN0c2CJeDQanXZLPWJIerB5LdKiT~uKi5XXA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+padding: 5px;
+height: 200px;
+border-radius: 5px;
+background-repeat: no-repeat;
+background-size: cover;
+text-align: left;
+font-weight: 600;
+}
+.formal{
+  background-image: url('https://s3-alpha-sig.figma.com/img/e46e/d6ac/8bdbe2c750dcc6e834bf1d98a4a73b29?Expires=1693785600&Signature=CqKYlaAD-l8IczPdhknjwnJllYQ1~U4k~OpkW~JbVdBZDqzXqXYnHF4FlmJTCHHKfHfzwf9M2jDBty7yrxhAVEb7A~anGePUxXNnqP7E8ki4RZ5NFOkBc7WY8B-rFZZeYW357qtuDPi6MEjCn5QS9As~spTchYLbCacFq0SckZG-drFoQYoeOHpXmMZVa4z3N8pfH-EmZTbHCjrl3TzGccDMxY9z8gMgsLZUutRjq39pSfMtBo~Ep4N0cEuckoLG-YTia-ayUu70OSXeqHg7vWaj9YhP9KgjqzuO~FPKriRLJeD1Agh3UAwPRnx-RDxtFXDK4o5UDIUpjc--F~7Niw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+  padding: 5px;
+  height: 200px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+font-weight: 600;
+}
+.party{
+  background-image: url('https://s3-alpha-sig.figma.com/img/aa19/c69e/82cd85a823c989c1c8631bd976e2cbfb?Expires=1693785600&Signature=OHS17PE-U8LRQ9s4XwQT8lXGp-l4584No4GAL2I0olSA1CzcIlSpYt4ZVF7VyfEmNKGum4~dpul8yh3hNpd~TU2jJVh5SXtn~wnm5RgFZSDP2WudSM2CRZ9YDLqfMtQYyuqJVCjNmqGkBJ9pfiZvdvUjwtsfUvroDOh9ALkkvt3CjhYxBf58AHnzLy6IQ-6-DFAeDvnydhUu3OQiYTvSQF34Ty~vJrDyPtXvfnExBZnqlOb670uJQS4nsaXgJ7igVu9BznzfBHReg4JEcRmG-7jyTFyEWGga5L6n4Mv689JzxyW2vYv0RzOhJ47WNOmNCi4jMbRLEGr9n8MgvqgX9g__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+ padding: 5px;
+  height: 200px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+font-weight: 600;
+}
+.gym{
+  background-image: url('https://s3-alpha-sig.figma.com/img/fce6/58e0/c17a220fe8bfb1126626f3ab58a761ec?Expires=1693785600&Signature=dhRsLmXI8~r4WbGCinsjFjWjwoDX0~qQfE3j98mxngGed31sJancY6cbFKxYmrpqnHoIR9G6K1SD0rw3sDr9Jp1t~twmEC6qfnnF7IVKWfcPqC6t631wfYELoDdL7jsqH1gNQvzqBujBxawtmeBWJ0XsqnZ8qhqm9pVU9chz9UlFV7Kt~kqsHKEYgwihPtCxUNv9~eBJQHYtAJ4P3b38HIXU3-j00R6eIzk6qtIMHtR170Fizup67Fhhv79kzkEFR0r~NAG6esrEaBDDuT-VYiaaBlJaE-Yp05kcMXqjBH1N-jSKjAh3U4JmMpE5VFSpBLMjdHNGK8OjWGR0tifRvw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+  padding: 5px;
+  border-radius: 5px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: left;
+font-weight: 600;
+}
+.header-five{
+  color: #000;
+font-family: Integral CF;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.comment-card{
+  text-align: left;
+}
+.commentor{
+color: #000;
+
+font-family: Satoshi;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px; /* 110% */
+}
+.comment{
+color: rgba(0, 0, 0, 0.60);
+font-family: Satoshi;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+align-self: stretch;
+}
+.icons{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+}
+.product-heading{
+  color: #000;
+  font-family: Integral CF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.product-description{
+  color: rgba(0, 0, 0, 0.60);
+
+font-family: Satoshi;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 22px; /* 137.5% */
+}
+.ctr-button{
+  width: 30px;
+  height: 30px;
+}
+.counter{
+  width: 150px;
+  height: 50px;
+  background-color: aliceblue;
+
+}
+.cart-items{
+  display: flex;
+width: 715px;
+padding: 20px 24px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+}
+.cart-summary{
+  display: flex;
+  width: 505px;
+  height: 458px;
+  padding: 20px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+}
+.cart-item{
+  border-radius: 20px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+}
